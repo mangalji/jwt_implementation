@@ -4,11 +4,28 @@ step 1:
 step 2:
     create a virtual environment:
     In Linux: python3 -m venv <your venv name>
-    
-    then activate it by : source <your venv name>/bin/activate
+    then activate it by : 
+
+        source <your venv name>/bin/activate
 
 step 3: install the dependencies
     pip install requirements.txt
 
 step 4: run the project
     python3 manage.py runserver
+# JWT Implementation Project
+
+This project demonstrates JWT (JSON Web Token) implementation using Django.
+
+## Prerequisites
+
+- Python 3.x
+- Git
+
+## Setup Instructions
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/mangalji/jwt_implementation.git
+cd jwt_implementation
