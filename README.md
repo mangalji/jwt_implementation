@@ -29,7 +29,7 @@ This project demonstrates JWT (JSON Web Token) implementation using Django.
 
 ## Setup Instructions
 
--change the database settings with your credentials and details in settings.py 
+- change the database settings with your credentials and details in settings.py 
 
 ### Step 1: Clone the Repository
 
