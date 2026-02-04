@@ -1,4 +1,4 @@
-step 1:
+<!-- step 1:
     
 
     git clone https://github.com/mangalji/jwt_implementation.git
@@ -17,7 +17,7 @@ step 3: install the dependencies
 step 4: run the project
 
     python3 manage.py runserver
-
+ -->
 # JWT Implementation Project
 
 This project demonstrates JWT (JSON Web Token) implementation using Django.
