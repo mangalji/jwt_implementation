@@ -20,8 +20,8 @@ class AdvocateSerializer(serializers.ModelSerializer):
         model = Advocate
         # in the fields attribute you specify that which model field or fields you want to show
         
-        # fields = ["username","bio","company"] 
-        fields = '__all__'
+        fields = ["username","bio","name","profile_pic","twitter_api","company"] 
+        # fields = '__all__'
         # sometimes you show the limited fields because in many models there are many fields 
         # like password or created_at, but you can't show these fields for everyone 
         # so you wants to hide them, for this reason you want to show only some limited fields. 

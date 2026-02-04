@@ -121,6 +121,8 @@ class AdvocateList(APIView):
 
 
 class AdvocateDetail(APIView):
+
+    permission_classes = [IsAuthenticated]
     
     def get_object(self,username):
         try:
